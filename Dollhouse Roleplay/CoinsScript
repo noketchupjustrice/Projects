@@ -1,0 +1,5 @@
+--Apparntly some of yall dont even know how to do this
+--Execute when you get the daily reward screen and just wait until the lag stops
+for i = 1, 1600606 do
+   game:GetService("ReplicatedStorage")["ClaimReward"]:FireServer()
+end
